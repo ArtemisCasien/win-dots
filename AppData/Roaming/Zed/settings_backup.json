@@ -1,0 +1,98 @@
+{
+  // Zed settings
+  //
+  // For information on how to configure Zed, see the Zed//zed.dev/docs/configuring-zed
+  //
+  // To see all of Zed's default settings without changing your
+  // custom settings, run `zed: open default settings` from the
+  // command palette (cmd-shift-p / ctrl-shift-p)
+  "zoomed_padding": true,
+  "centered_layout": {
+    "left_padding": 0.1
+  },
+  "status_bar": {
+    "cursor_position_button": false
+  },
+  "project_panel": {
+    "button": true,
+    "sticky_scroll": false,
+    "indent_size": 15.0,
+    "folder_icons": true,
+    "entry_spacing": "standard",
+    "hide_gitignore": false,
+    "default_width": 240.0
+  },
+  "terminal": {
+    "shell": "system"
+  },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "buffer_font_size": 18.0,
+  "agent": {
+    "profiles": {
+      "casien": {
+        "name": "casien",
+        "tools": {
+          "web_search": true,
+          "thinking": true,
+          "read_file": true,
+          "now": true,
+          "open": true,
+          "list_directory": true,
+          "grep": true,
+          "find_path": true,
+          "edit_file": true,
+          "delete_path": true,
+          "diagnostics": true,
+          "create_directory": true,
+          "copy_path": true,
+          "fetch": true
+        },
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
+    "default_height": 318.0,
+    "default_profile": "casien",
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    },
+    "play_sound_when_agent_done": true,
+    "model_parameters": []
+  },
+  "active_pane_modifiers": {
+    "inactive_opacity": 1.0,
+    "border_size": 0.0
+  },
+  "bottom_dock_layout": "left_aligned",
+  "preview_tabs": {
+    "enable_preview_from_file_finder": true
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "git_status": false,
+    "show_close_button": "always",
+    "show_diagnostics": "all",
+    "close_position": "right",
+    "file_icons": true
+  },
+  "title_bar": {
+    "show_menus": true,
+    "show_branch_icon": true
+  },
+  "base_keymap": "JetBrains",
+  "ui_font_family": "PlemolJP Console NF",
+  "buffer_font_family": "PlemolJP Console NF",
+  "restore_on_startup": "none",
+  "icon_theme": "Material Icon Theme",
+  "theme": "Nightfox - blurred",
+  "vim_mode": true,
+  "vim": {
+    "default_mode": "insert"
+  },
+  "relative_line_numbers": true
+}
