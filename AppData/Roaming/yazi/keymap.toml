@@ -1,0 +1,61 @@
+[manager]
+# Navigation
+q = "quit"
+h = "cd .."
+l = "open"
+j = "move down"
+k = "move up"
+g = "move top"
+G = "move bottom"
+"<C-u>" = "move half_up"
+"<C-d>" = "move half_down"
+"<C-f>" = "move page_down"
+"<C-b>" = "move page_up"
+"~" = "cd"
+
+# File operations
+"<Space>" = "select"
+"<C-a>" = "select_all"
+"<C-r>" = "reload"
+y = "yank"
+d = "remove"
+D = "remove --permanently"
+p = "paste"
+a = "rename"
+c = "create"
+
+# File sorting
+o = "sort"
+O = ["sort", "reverse"]
+
+# Search and filtering
+/ = "search"
+f = "filter"
+n = "search_next"
+N = "search_prev"
+
+[input]
+# Cancel and confirm actions
+"<Escape>" = "close"
+"<Enter>" = "submit"
+
+# Line editing
+"<C-c>" = "escape"
+"<C-u>" = "kill_to_beginning"
+"<C-k>" = "kill_to_end"
+"<C-w>" = "kill_prev_word"
+"<C-h>" = "delete_prev_char"
+
+[preview]
+# Preview navigation
+j = "scroll down"
+k = "scroll up"
+h = "scroll left"
+l = "scroll right"
+g = "scroll top"
+G = "scroll bottom"
+
+[help]
+"<Escape>" = "escape"
+q = "escape"
+

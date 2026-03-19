@@ -1,0 +1,59 @@
+[manager]
+# UI elements
+selected_fg = { fg = "#FFFFFF", bg = "#005577", bold = true }
+selected_bg = { fg = "#111111", bg = "#BBBBBB" }
+
+current_fg = { fg = "#FFFFFF", bg = "#555555", bold = true }
+current_bg = { fg = "#111111", bg = "#999999" }
+
+directory = { fg = "#5FAFD7", bold = true }
+executable = { fg = "#87D787" }
+regular = { fg = "#DDDDDD" }
+symlink = { fg = "#F5BF49" }
+broken = { fg = "#FC6A5D" }
+missing = { fg = "#FF0000" }
+
+# File colors by type
+image = { fg = "#BFA0E6" }
+video = { fg = "#F992BD" }
+audio = { fg = "#87AFAF" }
+archive = { fg = "#D7875F" }
+document = { fg = "#87AF87" }
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#FFFFFF", bg = "#555555" }
+
+# Normal status bar styles
+mode_normal = { fg = "#FFFFFF", bg = "#005577", bold = true }
+mode_select = { fg = "#FFFFFF", bg = "#AF005F", bold = true }
+mode_unset = { fg = "#FFFFFF", bg = "#AF5F00", bold = true }
+
+# Status bar info styles
+info_normal = { fg = "#DDDDDD", bg = "#333333" }
+info_select = { fg = "#DDDDDD", bg = "#333333" }
+info_unset = { fg = "#DDDDDD", bg = "#333333" }
+
+[input]
+border = { fg = "#555555" }
+title = { fg = "#FFFFFF", bold = true }
+value = { fg = "#DDDDDD" }
+selected = { fg = "#FFFFFF", bg = "#005577" }
+
+[completion]
+border = { fg = "#555555" }
+active = { fg = "#FFFFFF", bg = "#005577" }
+inactive = { fg = "#DDDDDD" }
+
+[preview]
+tab = { fg = "#DDDDDD", bg = "#333333" }
+hovered = { fg = "#FFFFFF", bg = "#555555", bold = true }
+selected = { fg = "#FFFFFF", bg = "#005577", bold = true }
+
+[help]
+on = { fg = "#FFFFFF", bg = "#005577", bold = true }
+off = { fg = "#DDDDDD" }
+separator = { fg = "#555555" }
+desc = { fg = "#DDDDDD" }
+

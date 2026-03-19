@@ -1,0 +1,32 @@
+[manager]
+ratio = [1, 4, 3]  # The ratio for each column in the manager layout
+show_hidden = false  # Whether to show hidden files
+show_symlink = true  # Whether to show the targets of symlinks
+
+[preview]
+max_width = 1920  # Maximum preview width
+max_height = 1080  # Maximum preview height
+image_preview = true  # Whether to enable image previews
+image_method = "ueberzug"  # Method to display images: ueberzug, kitty, sixel, iterm2, viu
+
+[opener]
+edit = [
+    { exec = "code", block = false },
+    { exec = "notepad", block = false },
+]
+open = [
+    { exec = "xdg-open", block = false },
+    { exec = "start", block = false },
+]
+reveal = [
+    { exec = "explorer", args = ["/select,"], block = false },
+]
+
+[tasks]
+micro_workers = 5
+macro_workers = 10
+bizarre_workers = 3
+
+[plugins]
+preload = []
+

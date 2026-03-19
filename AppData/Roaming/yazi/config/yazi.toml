@@ -1,0 +1,12 @@
+[preview]
+tab_size = 2
+max_width = 600
+max_height = 900
+cache_size = 64
+
+[preview.tab]
+enabled = true
+
+[preview.image]
+enabled = true
+method = "magick"
